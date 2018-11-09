@@ -1,0 +1,169 @@
+body {
+  background-image:url("./photos/img (5).jpg");
+  background-size:cover;
+  background-attachment:fixed;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  overflow-x:hidden;
+}
+.free{
+  position:relative;
+}
+.top{
+  top:20px;
+}
+.top-sm{
+  top:40px;
+}
+.top-lg{
+  top:80px;
+}
+.center-form{
+  width:50%;
+}
+.m-top-4{
+  margin-top:80px;
+}
+.hide{
+  visibility:none;
+}
+.show{
+  visibility:visible;
+}
+.person{
+  display:inline-block;
+  margin:30px;
+  border:1px solid #eee;
+  border-radius:5px;
+  box-shadow:0px 2px 2px #ccc;
+  width:200px;
+  background-color: white;
+}
+.person-long{
+  display:inline-block;
+  margin:30px;
+  border:1px solid #eee;
+  border-radius:5px;
+  box-shadow:0px 2px 2px #ccc;
+  width:200px;
+  height:490px;
+  background-color: white;
+}
+.tiles-long{
+    display:inline-block;
+    margin:30px;
+    border:1px solid #eee;
+    border-radius:5px;
+    box-shadow:0px 2px 2px #ccc;
+    width:900px;
+    background-color: white;
+}
+.person:hover{
+  background-color:rgb(24, 31, 25);
+  color:white;
+  animation:spin forwards .5s linear;
+}
+@keyframes spin{
+  0%{ transform: rotateY(0deg); }
+  50% { transform: rotateY(60deg); }
+  100%{ transform: rotateY(-10deg); }
+}
+.m-2{
+  margin-left:5px;
+}
+.m-4{
+  margin-left:10px;
+}
+.m-extra{
+  margin-left:80px;
+}
+.m-extra-lg{
+  margin-left:25%;
+}
+#root{
+  height: 100vh;
+}
+.root-black{
+  background-color: black;
+  height: 100vh;
+}
+.root{
+  height: 100vh;
+}
+.wallpaper{
+  background-image:url(./logo.svg);
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+#leader-two{
+  position:fixed;
+  top:100px;
+  width:100%;
+}
+#leader{
+  position:fixed;
+  top:0px;
+  width:100%;
+  text-align: center;
+  font-weight: 900;
+  font-size: 30px;
+  background-color:black;
+  color:white;
+  padding:10px;
+}
+.banner{
+  background-color: black;
+  color:white;
+  padding:10px;
+}
+.banner:hover{
+  background-color:white;
+  color:black;
+}
+.primary{
+  color:rgb(0, 140, 255);
+}
+.lt-sp-sm{
+  letter-spacing: -0.09em;
+}
+.person p,.person button{
+  margin-left:20px;
+  padding:4px;
+  text-align: left;
+}
+.btn{
+  border:1px;
+  border-radius: 4px;
+  color: black;
+  background-color: white;
+}
+.mybtn-primary{
+  background-color:orange;
+  border:1px;
+  border-radius: 4px;
+}
+.btn-danger{
+  background-color:rgb(194, 11, 11);
+}
+.btn-success{
+  background-color:green;
+}
+.p2{
+  float:right;
+  position: relative;
+  top:-52px;
+}
+.mybg-white{
+  color:black;
+  background: white;
+}
+.mybg-white p{
+  color:black;
+}
+.mybg-primary{
+  background: rgba(0,0,0,.8);
+  color:white;
+}
+.mybg-primary p{
+}

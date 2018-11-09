@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+.my-width{
+  width:90%;
+}
+#input-one{
+  width:40%;
+  position:relative;
+  left:30%;
+}
+.invisible{
+  opacity:0;
+}
+#btn-one{
+  position:relative;
+  left:47%;
+  top:0.5em;
+}
+#big-display{
+  color:white;
+  font-size:10px;
+  position:fixed;
+  top:250px;
+  left:35%;
+  opacity:.3;
+  animation:spin 2s infinite 0s forwards;
+}
+@keyframes spin{
+  0%{transform:rotateX(0deg) skewY(-30deg);font-size:60px;opacity:.3}
+  50%{transform:rotateX(60deg);font-size:60px;opacity:.3}
+  100%{transform:rotateX(360deg) skewY(-30deg);font-size:60px;}
+}
+#item-no{
+  position:fixed;
+  left:30%;
+  top:140px;
+  font-size:18px;
+  font-weight:900px;
+  color:white;
+}
+.center-btn{
+  position:fixed;
+  left:46%;
+  top:610px;
+}
+::-webkit-scrollbar{display:none}
+::-moz-scrollbar{display:none}
+::-o-scrollbar{display:none}
+::-ms-scrollbar{display:none;}
+.center-items{
+  position:relative;
+  width:50%;
+  left:25%;
+  top:200px;
+  overflow-x:hidden;
+  perspective: 1000px;
+  background: rgba(0,0,0,0);
+}
+.saviour{
+  overflow-y:hidden;
+}
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
